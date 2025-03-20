@@ -3,7 +3,7 @@ import type { Appointment, Patient } from "./models"
 import { ObjectId } from "mongodb"
 
 // Mark this module as server-only to prevent it from being imported in client components
-import "server-only"
+// import "server-only"
 
 // Database and collection names
 const DB_NAME = "jd-dental-clinic"
